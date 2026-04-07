@@ -14,7 +14,7 @@ export default class CriacaoBase extends Phaser.Scene {
     preload() {
         this.load.image('pause',      'assets/images/botao_pause.svg');
         this.load.image('cenario',    'assets/images/fundo_marte.svg');
-        this.load.image('container',  'assets/images/container.svg');
+        this.load.image('container',  'assets/images/Container.svg');
         this.load.image('carbono',    'assets/images/Carbono.svg');
         this.load.image('poeira',     'assets/images/Poeira.svg');
         this.load.image('painel',     'assets/images/painel_solar.svg');
