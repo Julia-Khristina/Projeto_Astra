@@ -1,0 +1,170 @@
+:root {
+    --fundo: #0A0D30;
+    --botao: #EBD973; /* Amarelo do sol/botão? Ajustei para cinza no código abaixo se for botão de play */
+    --modal: #FFFFFF;
+    --texto: #172530;
+    --fonte-texto: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fonte-texto);
+}
+
+body {
+    background-color: var(--fundo);
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden; /* Importante: impede barra de rolagem */
+    position: relative; /* Para podermos usar position absolute dentro dele */
+}
+
+/* --- ESTILO DO SOL (.img1) --- */
+.img1 {
+    position: absolute;
+    height: 70vh; /* Aumentei de 20vh para 85vh para ficar grande igual a foto */
+    top: 50%; /* Tenta centralizar */
+    transform: translateY(-50%); /* Garante o centro vertical exato */
+    left: -15vh; /* Puxa para a esquerda para esconder um pedaço */
+    z-index: 1; /* Fica atrás de tudo */
+}
+
+/* --- ESTILO DOS PLANETAS --- */
+.planets-container {
+    display: flex;
+    position: absolute;
+    left: 35vh; /* Começa depois do sol */
+    top: 50%;
+    transform: translateY(-50%);
+    gap: 50px; /* Espaço entre eles */
+    z-index: 2;
+}
+
+/* Bolinhas representando os planetas (Troque por <img> se tiver as imagens) */
+.planet {
+    border-radius: 50%;
+}
+
+.mercurio {
+    width: 250px; 
+    height: 220px;
+    margin-left: 100px;
+}
+
+.venus {
+    width: 200px; 
+    height: 225px;
+    margin-top: 100px; /* Efeito escada descendo */
+}
+
+.terra {
+    width: 200px; 
+    height: 220px;
+    margin-top: 200px; /* Efeito escada descendo mais */
+}
+
+/* --- ESTILO DO MODAL (TEXTO) --- */
+.modal {
+    position: absolute;
+    background-color: var(--modal);
+    color: var(--texto);
+    top: 8%;
+    right: 5%; /* Ajuste conforme necessário */
+    width: 400px;
+    padding: 20px 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    z-index: 10;
+}
+
+.modal h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.modal p {
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+/* --- ESTILO DOS BOTÕES --- */
+.botoes {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    display: flex;
+    gap: 15px;
+    z-index: 10;
+}
+
+.btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: #D9D9D9; /* Cinza claro dos botões */
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: white;
+    transform: scale(1.1);
+}
+.mercurio, .venus, .terra {
+    /* Suaviza tanto o aumento quanto a cor da borda */
+    transition: all 0.3s ease; 
+    cursor: pointer;
+    
+    /* TRUQUE: Borda invisível para reservar o espaço e não "pular" */
+    border: 4px solid transparent; 
+    border-radius: 50%; /* Garante que a borda seja redonda */
+}
+
+/* 2. Quando passa o mouse (Hover) */
+.mercurio:hover, 
+.venus:hover, 
+.terra:hover {
+    filter: drop-shadow(0 0 5px #FFFFFF) drop-shadow(0 0 10px #FFFFFF);
+    transform: scale(1.2); /* Aumenta 10% do tamanho atual dele */
+}
+
+/*Tela: Terra*/
+
+.planeta_terra img{
+    margin-top: 100px; /* Efeito escada descendo mais */
+    margin-left: 500px;
+}
+.botoes {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    display: flex;
+    gap: 15px;
+    z-index: 10;
+}
+
+.btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: #D9D9D9; /* Cinza claro dos botões */
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: white;
+    transform: scale(1.1);
+}
