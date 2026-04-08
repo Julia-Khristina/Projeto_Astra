@@ -89,7 +89,7 @@ export default class InicioExploracaoRecursos extends Phaser.Scene {
                     descricao: 'EXPLORE A REGIÃO E ENCONTRE RECURSOS PARA AJUDAR OS HUMANOS A VIVER AQUI.',
                     yDescricao: -(height * 0.14),
                     yBotao: height * 0.09,
-                    textoBotao: 'ESTOU PRONTO (A)!',
+                    textoBotao: 'ESTOU PRONTO(A)!',
                     larguraBotao: width * 0.27,
                     alturaBotao: height * 0.08,
                     acao: () => {
