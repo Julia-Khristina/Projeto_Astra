@@ -19,8 +19,12 @@ export default class Tutorial extends ChuvaMeteoros {
         }
         
         // timer de 30 segundos para mudar de tela
-        this.time.delayedCall(20000, () => {
-            this.irParaProximaTela();
+        this.timerFinal = this.time.delayedCall(20000, () => {
+            if (this.modal.container.visible) {
+                this.tempoEsgotado = true;
+            } else {
+                this.irParaProximaTela();
+            }
         });
     }
 
@@ -40,9 +44,16 @@ export default class Tutorial extends ChuvaMeteoros {
             textoBotao: "ENTENDI!",
             acao: () => {
                 this.modal.hide();
+                if (this.timerFinal) this.timerFinal.paused = false;
+                if (this.tempoEsgotado) {
+                    this.irParaProximaTela();
+                    return;
+                }
                 this.comecarChuva(); // Retoma o jogo
             }
         });
+
+        if (this.timerFinal) this.timerFinal.paused = true;
         this.modal.show();
     }
 }

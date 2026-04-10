@@ -163,10 +163,12 @@ export default class Cena_linha_tempo extends Phaser.Scene {
                     this.cartaoAtivo++;
                 }
 
-                if (this.cartaoAtivo < 4) {
-                    this.ativarCartao(this.cartaoAtivo); // destaca o próximo cartao
+                const todosOcupados = this.listaCartasTarget.every(t => t.cartaOcupando);
+
+                if (!todosOcupados) {
+                    this.cartaoAtivo = this.listaCartasTarget.findIndex(t => !t.cartaOcupando);
+                    this.ativarCartao(this.cartaoAtivo);
                 } else {
-                    // todos os cartões preenchidos 
                     this.time.delayedCall(400, () => this.encerrarDesafio());
                 }
             }

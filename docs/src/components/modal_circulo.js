@@ -86,31 +86,26 @@ export default class modal_circulo {
         this.container.add(this.circulo2);
 
         // botão de enviar
-        const btnX = cx;
-        const btnY = modalY + modalH - 70;
-        const btnW = 200;
-        const btnH = 50;
+        this.btnX = cx;
+        this.btnY = modalY + modalH - 70;
+        this.btnW = 200;
+        this.btnH = 50;
 
-        // fundo do botão por _drawBtn()
         this.btnBg = this.scene.add.graphics();
-        this._drawBtn(this.btnBg, btnX, btnY, btnW, btnH, false);
+        this._drawBtn(this.btnBg, this.btnX, this.btnY, this.btnW, this.btnH);
         this.container.add(this.btnBg);
 
-        // texto do botão
-        const btnLabel = this.scene.add.text(btnX, btnY, 'ENVIAR', {
+        this.btnLabel = this.scene.add.text(this.btnX, this.btnY, 'ENVIAR', {
             fontFamily: 'APHONT',
             fontSize: '18px',
             color: '#111111',
         }).setOrigin(0.5, 0.5);
-        this.container.add(btnLabel);
+        this.container.add(this.btnLabel);
 
-        // zona invisível de clique sobre o botão 
-        const btnZone = this.scene.add.zone(btnX, btnY, btnW, btnH)
+        const btnZone = this.scene.add.zone(this.btnX, this.btnY, this.btnW, this.btnH)
             .setInteractive({ useHandCursor: true });
         this.container.add(btnZone);
 
-        btnZone.on('pointerover', () => this._drawBtn(this.btnBg, btnX, btnY, btnW, btnH, true));
-        btnZone.on('pointerout',  () => this._drawBtn(this.btnBg, btnX, btnY, btnW, btnH, false));
         btnZone.on('pointerdown', () => this.onEnviar());
 
         // desenha os círculos com o 1 já destacado como ativo
@@ -149,30 +144,28 @@ export default class modal_circulo {
     }
 
     // recebe o badge clicado no container
-
     receberBadge(chave) {
         if (this.circuloAtivo === 1) {
-            this.imagem1?.destroy(); // remove img anterior se o jogador trocar o badge
+            this.imagem1?.destroy();
 
-            // cria a img do badge dentro do círculo 1
             this.chave1  = chave;
             this.imagem1 = this.scene.add.image(this.c1x, this.c1y, chave)
                 .setScale(0.08)
                 .setInteractive();
             this.container.add(this.imagem1);
-            this.container.bringToTop(this.imagem1); // garante que fica acima dos círculos
+            this.container.bringToTop(this.imagem1);
 
             this.imagem1.once('pointerdown', () => this._retirarDoCirculo(1));
 
-            // foco para o círculo 2
-            this.circuloAtivo = 2;
-            this.destacarCirculo(2);
+            // se o círculo 2 já estiver preenchido, nenhum fica ativo
+            // caso contrário, foca no 2
+            this.circuloAtivo = this.chave2 ? null : 2;
+            this.destacarCirculo(this.circuloAtivo);
             this.retirarBadge();
 
         } else if (this.circuloAtivo === 2) {
             this.imagem2?.destroy();
 
-            // cria a img do badge dentro do círculo 2
             this.chave2  = chave;
             this.imagem2 = this.scene.add.image(this.c2x, this.c2y, chave)
                 .setScale(0.08)
@@ -182,12 +175,13 @@ export default class modal_circulo {
 
             this.imagem2.once('pointerdown', () => this._retirarDoCirculo(2));
 
-            // ambos os círculos preenchidos = nenhum destacado
             this.circuloAtivo = null;
             this.destacarCirculo(null);
-            
             this.retirarBadge();
         }
+
+        // atualiza visual do botão sempre que o estado mudar
+        this._atualizarBotao();
     }
 
     _retirarDoCirculo(numero) {
@@ -195,14 +189,19 @@ export default class modal_circulo {
             this.imagem1?.destroy();
             this.imagem1 = null;
             this.chave1  = null;
-            this.circuloAtivo = 1; // foco = círculo 1
+            this.circuloAtivo = 1; // volta para o círculo 1
         } else {
             this.imagem2?.destroy();
             this.imagem2 = null;
             this.chave2  = null;
-            this.circuloAtivo = 2; // foco = círculo 2
+            // se o círculo 1 já estiver preenchido, foca no 2
+            // caso contrário foca no 1
+            this.circuloAtivo = this.chave1 ? 2 : 1;
         }
         this.destacarCirculo(this.circuloAtivo);
+
+        // atualiza visual do botão sempre que o estado mudar
+        this._atualizarBotao();
     }
 
     // reseta os círculos para nova tentativa 
@@ -223,24 +222,17 @@ export default class modal_circulo {
         this.destacarCirculo(1);
     }
 
-    // Envio 
-
-    onEnviar() {
-        // bloqueia o envio se algum círculo ainda estiver vazio
-        if (!this.chave1 || !this.chave2) return;
-
-        // repassa as chaves para a cena = para ver se está certo ou errado
-        this.scene.onEnviarDesafio(this.chave1, this.chave2);
-    }
-
-    // desenhando o botão
-
     _drawBtn(g, x, y, w, h) {
         g.clear();
         g.fillStyle(0xe8d86a, 1);
         g.fillRoundedRect(x - w / 2, y - h / 2, w, h, 12);
         g.lineStyle(3, 0x111111, 1);
-        g.strokeRoundedRect(x - w / 2, y - h / 2, w, h, 12); // borda sobre o preenchimento
+        g.strokeRoundedRect(x - w / 2, y - h / 2, w, h, 12);
+    }
+
+    onEnviar() {
+        if (!this.chave1 || !this.chave2) return; // bloqueio mantido por segurança
+        this.scene.onEnviarDesafio(this.chave1, this.chave2);
     }
 
     // mostra/esconde o modal pelo container

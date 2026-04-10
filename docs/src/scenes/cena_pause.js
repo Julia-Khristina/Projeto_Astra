@@ -101,14 +101,14 @@ export default class Pause extends Phaser.Scene {
         })
 
         //ação subsequente do clique
-        this.reiniciar.caixa.on('pointerdown', () =>{
-            //volta para a cena 1
-            if (this.cenaAnterior){
+        this.reiniciar.caixa.on('pointerdown', () => {
+            // Para a cena que estava dormindo antes de reiniciar
+            if (this.cenaAnterior) {
                 this.scene.stop(this.cenaAnterior);
             }
-            this.scene.stop("Pause");
-            this.scene.restart("fimTerra");
-            this.scene.stop("BemVindo");
+            this.scene.stop('Pause');
+            this.scene.restart('fimTerra')
+            this.scene.stop('BemVindo');
             this.scene.start("BemVindo");
         })
 

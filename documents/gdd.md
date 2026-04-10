@@ -1,4 +1,4 @@
-<img src="../assets/logointeli.png">
+<img src="../documents/assets/logointeli.png">
 
 
 # GDD - Game Design Document - Módulo 1 - Inteli
@@ -53,7 +53,7 @@ O modelo das 5 Forças de Porter, desenvolvido pelo professor Michael Porter[¹]
 
 <div align="center">
 Figura 1: 5 Forças de Porter<br><br>
- <img src="../assets/5ForçasDePorter.png" width="60%" alt="Título"><br>
+ <img src="../documents/assets/5ForçasDePorter.png" width="60%" alt="Título"><br>
  <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br></div>
 
 Dentre os pontos destacados na imagem, são revelados os pontos a seguir:
@@ -89,7 +89,7 @@ A análise SWOT foi aplicada ao projeto do jogo em parceria com a UNIFESP, consi
 
 <div align="center">
  Figura 2: Análise SWOT<br><br>
- <img src="../assets/AnaliseSwot.png" width="500" alt="Título"><br>
+ <img src="../documents/assets/AnaliseSwot.png" width="500" alt="Título"><br>
  <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
 </div>
 
@@ -111,7 +111,7 @@ Veja abaixo o **Canvas de Perfil do Cliente** do nosso projeto:
 
 <div align="center">
  Figura 3: Proposta de Valor<br><br>
- <img src="../assets/1.1.4_1.png" width="85%" alt="Título"><br>
+ <img src="../documents/assets/1.1.4_1.png" width="85%" alt="Título"><br>
  <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
 </div>
 
@@ -120,7 +120,7 @@ Veja abaixo o **Mapa de Valor** do nosso projeto:
 
 <div align="center">
  Figura 4: Mapa de Valor<br><br>
- <img src="../assets/1.1.4_2.png" width="85%" alt="Título"><br>
+ <img src="../documents/assets/1.1.4_2.png" width="85%" alt="Título"><br>
  <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
 </div>
 
@@ -150,7 +150,7 @@ Veja abaixo a Matriz de Riscos do nosso projeto:
 
 <div align="center">
  Figura 5: Matriz de Riscos<br><br>
- <img src="../assets/MatrizDeRiscos.png" width="100%" alt="Título"><br>
+ <img src="../documents/assets/MatrizDeRiscos.png" width="100%" alt="Título"><br>
  <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
 </div>
 
@@ -312,25 +312,25 @@ Motivação: Integração não infantilizada de adolescentes com deficiência vi
 
 ## 2.1. Objetivos do Jogo
 
-O objetivo principal do jogo é ensinar conteúdos da base curricular do Ensino Médio a adolescentes com deficiência visual. Em nosso jogo, o jogador estudará temas como a origem do universo, a cinemática e os planetas do sistema solar, inserindo-se totalmente em uma das áreas mais fascinantes do conhecimento: a física. Nesse contexto, pretendemos criar um projeto gamificado, mas não infantil, contemplando um dos desejos dos usuários, uma vez que a maioria dos jogos existentes é infantilizada, o que não desperta muito interesse nos adolescentes. A experiência do usuário é projetada para ter um nível de dificuldade moderado, oferecendo um desafio equilibrado para que possamos integrar a tecnologia de eye tracker ao nosso jogo.
+O objetivo principal do jogo é ensinar conteúdos da base curricular do Ensino Médio a adolescentes com deficiência visual. Em nosso jogo, o jogador estudará temas como a origem do universo, a cinemática e os planetas do Sistema Solar, inserindo-se totalmente em uma das áreas mais fascinantes do conhecimento: a Física. Nesse contexto, pretendemos criar um projeto gamificado, mas não infantil, contemplando um dos desejos dos usuários, uma vez que a maioria dos jogos existentes é infantilizada, o que não desperta muito interesse nos adolescentes. A experiência do usuário é projetada para ter um nível de dificuldade moderado, oferecendo um desafio equilibrado, de modo que possamos integrar a tecnologia de eye tracker ao nosso jogo.
 
 ## 2.2. Características do Jogo
 
 ### 2.2.1. Gênero do Jogo
 
-Astra é um jogo sobre uma aventura espacial educativa que funde simulador de navegação, quizzes científicos e exploração planetária, projetada para converter conceitos abstratos da física em uma experiência tátil e auditiva. Cada manobra entre meteoros é construída para ensinar diferentes matérias abordadas na área da astronomia e astrofísica, desafiando a compreensão teórica dos alunos através de uma mecânica de jogo adaptada inclusiva.
+Astra é um jogo de aventura espacial educativa que funde simulador de navegação, quizzes científicos e exploração planetária, projetado para converter conceitos abstratos da Física em uma experiência tátil e auditiva. Cada manobra entre meteoros é construída para ensinar diferentes conteúdos abordados na área da Astronomia e Astrofísica, desafiando a compreensão teórica dos alunos por meio de uma mecânica de jogo adaptada e inclusiva.
 
-Sua estrutura híbrida entre Arcade e Exploração Educativa põe o estudante em uma jornada pelo Sistema Solar, onde o conhecimento é o combustível principal. Aqui, o progresso é medido pela superação de barreiras: o jogador não apenas domina fórmulas, mas desenvolve a percepção espacial e o pensamento científico, aprendendo a matéria de forma muito mais lúdica.
+Sua estrutura híbrida entre arcade e exploração educativa coloca o estudante em uma jornada pelo Sistema Solar, na qual o conhecimento é o combustível principal. Aqui, o progresso é medido pela superação de barreiras: o jogador não apenas domina fórmulas, mas desenvolve a percepção espacial e o pensamento científico, aprendendo a matéria de forma muito mais lúdica.
 
-O design é focado integralmente na acessibilidade universal. Mais do que uma escolha estética, o uso de interfaces de alto contraste, comandos simplificados para mobilidade reduzida e um design sonoro espacializado (áudio 3D) é uma escolha estratégica. Isso garante que a ciência seja democratizada, permitindo que alunos com deficiência motora ou visual naveguem pelo espaço com autonomia, transformando o aprendizado em uma experiência sensorial fluida e, acima de tudo, equitativa.
+O design é focado integralmente na acessibilidade universal. Mais do que uma escolha estética, o uso de interfaces de alto contraste, comandos simplificados para mobilidade 'reduzida e um design sonoro espacializado (áudio 3D) constitui uma escolha estratégica. Isso garante que a ciência seja democratizada, permitindo que alunos com deficiência motora ou visual naveguem pelo espaço com autonomia, transformando o aprendizado em uma experiência sensorial fluida e, acima de tudo, equitativa.
 
 ### 2.2.2. Plataforma do Jogo
 
-Planejado para a máxima inclusão no ambiente escolar, Astra é uma aplicação multiplataforma desenvolvida prioritariamente para notebooks e desktops, mas com total suporte para dispositivos móveis, como tablets e smartphones. Exigindo a necessidade de apenas o sensor ocular *eyetrack*, o jogo roda diretamente no navegador, exigindo apenas conexão à internet.
+Planejado para a máxima inclusão no ambiente escolar, Astra é uma aplicação multiplataforma desenvolvida prioritariamente para notebooks e desktops, mas com total suporte para dispositivos móveis, como tablets e smartphones. Exigindo apenas um sensor ocular (*eye tracker*), o jogo roda diretamente no navegador, necessitando somente de conexão à internet.
 
 ### 2.2.3. Número de jogadores
 
-Astra é uma experiência estritamente single-player, na qual o estudante assume o comando absoluto da missão científica. Este design centrado no indivíduo é fundamental para garantir que o ritmo de aprendizagem e a navegação adaptada respeitem o tempo e as necessidades motoras ou visuais de cada usuário.
+Astra é uma experiência estritamente single-player, na qual o estudante assume o comando absoluto da missão científica. Esse design centrado no indivíduo é fundamental para garantir que o ritmo de aprendizagem e a navegação adaptada respeitem o tempo e as necessidades motoras ou visuais de cada usuário.
 
 ### 2.2.4. Títulos semelhantes e inspirações
 
@@ -340,7 +340,7 @@ Inspirado pela jogabilidade de clássicos como [Dino Run](https://trex-runner.co
 
 Em média, o jogo dura entre 12 e 15 minutos, podendo variar mais que isso caso o jogador tenha dificuldade de passar pelas fases.
 
-Dentre esses 12 minutos considerados como tempo mínimo para finalizar, cerca de 7 minutos serão de gameplay composta de minigames e perguntas testando a aprendizagem do aluno, e 5 minutos serão de ensino expositivo atráves de textos. Caso o usuário fique mais tempo nas mecânicas com dificuldade, esse tempo poderá ser alongado até 20 minutos de
+Dentre esses 12 minutos considerados como tempo mínimo para finalizar, cerca de 7 minutos serão de gameplay composta de minigames e perguntas testando a aprendizagem do aluno, e 5 minutos serão de ensino expositivo atráves de textos. Caso o usuário fique mais tempo nas mecânicas com dificuldade, esse tempo poderá ser alongado até 20 minutos de jogo.
 
 # <a name="c3"></a>3. Game Design
 
@@ -361,34 +361,34 @@ A partir desse desafio, inicia-se um ciclo: após cada exploração, o jogador p
 ### NAVE
 
 <div align="center">
- Figura 3: Nave<br><br>
- <img src="../assets/Nave.png" width="200" alt="Título"><br>
+ Figura 6: Nave<br><br>
+ <img src="../documents/assets/Nave.png" width="200" alt="Título"><br>
  <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
 </div>
 
 
-É uma espaçonave que navegará entre planetas, estrelas, nebulosas e outros corpos celestes. A sua exploração envolve uma pausa na Terra e em Marte, na qual a nave recebe algumas melhorias e reparos para continuar as descobertas.
+É uma espaçonave que navegará entre planetas, estrelas, nebulosas e outros corpos celestes. Sua exploração envolve uma pausa na Terra e em Marte, onde o jogador poderá interagir com novos desafios e conteúdos educacionais.
 
 ### ASTRONAUTA
 
 <div align="center">
- Figura 4: Astronauta<br><br>
- <img src="../assets/Astronauta.png" width="500" alt="Título"><br>
+ Figura 7: Astronauta<br><br>
+ <img src="../documents/assets/Astronauta.png" width="500" alt="Título"><br>
  <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
 </div>
 
 
-O astronauta é o personagem principal do jogo e representa o avatar controlado pelo usuário durante toda a experiência. Não há opção de escolha de personagem, sendo esse o único astronauta utilizado pelo jogador.
+O astronauta é o personagem principal do jogo e representa o avatar controlado pelo usuário durante toda a experiência. Não há opção de escolha de personagem, sendo esse o único disponível para o jogador.
 
-Seu design foi desenvolvido com foco em acessibilidade para pessoas com baixa visão, utilizando uma paleta de cores simples, principalmente preto e branco, para garantir alto contraste. Além disso, o personagem possui contornos bem definidos, facilitando sua visualização durante a jogabilidade.
+Seu design foi desenvolvido com foco em acessibilidade para pessoas com baixa visão, utilizando uma paleta de cores simples, composta por preto e branco, para garantir alto contraste. Além disso, o personagem possui contornos bem definidos, facilitando sua visualização durante a jogabilidade.
 
 ### 3.2.2. Non-Playable Characters (NPC)
 
 ### Astrofísica
 
 <div align="center">
- Figura 5: Astrofísica<br><br>
- <img src="../assets/Astrofísica.png" width="700" alt="Título">
+ Figura 8: Astrofísica<br><br>
+ <img src="../documents/assets/Astrofísica.png" width="700" alt="Título">
  <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
 </div>
 
@@ -413,70 +413,266 @@ Com essa abordagem, buscamos garantir que diferentes públicos possam se sentir 
 
 ### 3.3.1. Locações Principais e/ou Mapas
 
-### Tela Sistema Solar:  
+### Tela Sistema Solar:
 
 O jogo inicia com uma visão em 2D do sistema solar, especificamente o Sol, Mercúrio, Vênus e a Terra. A interface permite que o player selecione os planetas, de modo que, ao serem escolhidos, a câmera realiza um zoom, destacando-o visualmente em relação aos outros.
 
 <div align="center">
- Figura 6: Sistema solar<br><br>
- <img src="../assets/tela_sistema_solar.png" width="500" alt="Título"><br>
+ Figura 9: Sistema solar<br><br>
+ <img src="../documents/assets/tela_sistema_solar.png" width="500" alt="Sistema Solar"><br>
  <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
 </div>
 
+---
 
-### Tela Tutorial:
+### Tela Tutorial — Caminho Sol-Terra:
 
 Após o usuário selecionar a Terra na tela anterior, inicia-se um tutorial durante o trajeto entre o Sol e a Terra. Nesse momento, o jogador passa a controlar uma nave espacial enquanto é introduzido à mecânica de chuva de asteroides.
 
-O desafio consiste em desviar dos detritos que surgem no caminho. Caso ocorra colisão entre a nave e um asteroide, um pop-up aparece na tela alertando o jogador para tomar cuidado e orientando-o a desviar dos asteroides, ajudando-o a compreender a dinâmica do jogo e continuar a navegação.
+O desafio consiste em desviar dos detritos que surgem no caminho. Caso ocorra colisão entre a nave e um asteroide, um pop-up aparece na tela alertando o jogador para tomar cuidado e orientando-o a desviar dos obstáculos, ajudando-o a compreender a dinâmica do jogo e continuar a navegação.
 
 <div align="center">
- Figura 7: Tela inicial<br><br>
- <img src="../assets/tela_inicial.png" width="500" alt="Título">
+ Figura 10: Tela tutorial<br><br>
+ <img src="../documents/assets/tela_mini_tutorial.png" width="500" alt="Tela Tutorial"><br>
  <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
-
 </div>
+
+---
 
 ### Centro de Comando de Astronomia Global:
 
-Na chegada à Terra, inicia-se uma dinâmica dentro do planeta, na qual o jogador pode aterrissar sua nave e passar a controlar um astronauta. Nesse momento, uma astrofísica começa a guiar o jogador dentro do centro de comando da NASA.
-
-Nesse espaço, são apresentadas diversas atividades, como a construção de uma linha do tempo estelar, um simulador de telescópio, nas quais diferentes temas de astronomia são introduzidos e reforçados ao longo da experiência.
+Na chegada à Terra, inicia-se uma dinâmica dentro do planeta, na qual o jogador pode aterrissar sua nave e passar a controlar um astronauta. Nesse momento, uma astrofísica começa a guiar o jogador pelo interior das instalações da NASA, introduzindo-o ao universo da astronomia.
 
 <div align="center">
- Figura 8: Chegada a terra<br><br>
- <img src="../assets/Chegada_terra.png" width="500" alt="Título">
+ Figura 11: Chegada à Terra<br><br>
+ <img src="../documents/assets/aterrissagem_terra.png" width="500" alt="Chegada à Terra"><br>
+ <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
+</div>
+
+---
+
+### Tela de Slides — Linha do Tempo Estelar:
+
+Ao adentrar as instalações da NASA, o jogador é apresentado a uma série de conteúdos sobre a linha do tempo do universo e o surgimento de diferentes corpos celestes. A navegação ocorre por meio de slides explicativos acompanhados de áudios, e o jogador pode avançar pelo conteúdo utilizando a mecânica de scroll de texto, consolidando seu aprendizado antes de seguir para o próximo desafio.
+
+<div align="center">
+ Figura 12: Slides da cientista<br><br>
+ <img src="../documents/assets/slide_bigBang.png" width="500" alt="Slides Linha do Tempo"><br>
+ <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
+</div>
+
+---
+
+### Mini Jogo — Organização Cronológica:
+
+Com base nos conhecimentos adquiridos nos slides anteriores, o jogador é desafiado a ordenar cronologicamente uma série de eventos representados em cards. Um modal introdutório explica brevemente a mecânica de clique e reposicionamento das cartas, permitindo que o usuário reorganize os elementos até atingir a ordem correta.
+
+<div align="center">
+ Figura 13: Mini jogo de organização cronológica<br><br>
+ <img src="../documents/assets/Dinâmica_Cartas.png" width="500" alt="Mini Jogo Organização Cronológica"><br>
+ <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
+</div>
+
+---
+
+### Tela do Observatório — Telescópio Hubble:
+
+No observatório, o jogador é convidado a conversar com a astrofísica, que apresenta, por meio de slides, conteúdos sobre telescópios, com ênfase especial no telescópio Hubble. Ao final da explicação, o jogador seleciona o telescópio e é transportado para uma visão lúdica e interativa do equipamento, pronto para iniciar uma nova etapa de exploração.
+
+<div align="center">
+ Figura 14: Observatório<br><br>
+ <img src="../documents/assets/Cena_Telescopio.png" width="500" alt="Observatório"><br>
+ <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
+</div>
+
+---
+
+### Mini Jogo — Visão do Telescópio:
+
+Através da lente do telescópio, o jogador pode explorar três fascinantes objetos intergalácticos: um Buraco Negro, a Nebulosa de Órion e a Galáxia de Andrômeda. Uma nova mecânica de aproximação e afastamento é introduzida, permitindo que o usuário ajuste o zoom sobre cada astro explorado e aprofunde sua compreensão sobre cada um deles.
+
+<div align="center">
+ Figura 15: Visão do telescópio<br><br>
+ <img src="../documents/assets/telescópio.png" width="500" alt="Visão do Telescópio"><br>
+ <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
+</div>
+
+---
+
+### Tela de Slides — Medindo o Universo:
+
+Após a exploração intergaláctica, o jogador retorna aos slides da astrofísica para aprender sobre os métodos utilizados na astronomia para medir distâncias e o tempo. Nessa etapa, são introduzidos dois conceitos fundamentais: a Unidade Astronômica e o Ano-Luz, preparando o jogador para os desafios que virão a seguir.
+
+<div align="center">
+ Figura 16: Slides sobre distâncias astronômicas<br><br>
+ <img src="../documents/assets/Slide_Anos-Luz.png" width="500" alt="Slides Distâncias Astronômicas"><br>
+ <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
+</div>
+
+---
+
+### Mini Jogo — Quiz de Astronomia:
+
+Ao final dos slides, o jogador enfrenta um quiz com perguntas de múltipla escolha — quatro alternativas cada — sobre os conteúdos abordados. Respostas corretas garantem o avanço direto para a próxima pergunta. Em caso de erro, uma das três vidas disponíveis é descontada, mas o jogador ainda avança. Caso perca todas as vidas, o quiz é reiniciado desde o início, oferecendo uma nova chance de consolidar o aprendizado.
+
+<div align="center">
+ Figura 17: Quiz de astronomia<br><br>
+ <img src="../documents/assets/Sistema_Vida.png" width="500" alt="Quiz de Astronomia"><br>
+ <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
+</div>
+
+---
+
+### Tela de Decolagem — Rumo a Marte:
+
+De volta à base da NASA, o astronauta retorna à nave espacial e decola em direção ao próximo destino: Marte. A missão se expande e o jogador parte para uma nova fase da exploração espacial, levando consigo todo o conhecimento adquirido na Terra.
+
+<div align="center">
+ Figura 18: Decolagem rumo a Marte<br><br>
+ <img src="../documents/assets/Decolagem_Terra.png" width="500" alt="Decolagem Rumo a Marte"><br>
+ <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
+</div>
+
+---
+
+### Mini Jogo — Caminho Terra-Marte:
+
+Durante o trajeto entre a Terra e Marte, uma nova chuva de meteoros desafia o jogador a desviar dos detritos com sua nave. Ao colidir, um modal apresenta um quiz revisando todo o conteúdo abordado na Terra, funcionando como uma oportunidade de consolidação do aprendizado. A lógica de três vidas se aplica novamente: o quiz é reiniciado caso todas sejam perdidas.
+
+<div align="center">
+ Figura 19: Caminho Terra-Marte<br><br>
+ <img src="../documents/assets/Chuva_Meteoros_vida.png" width="500" alt="Caminho Terra-Marte"><br>
+ <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
+</div>
+
+---
+
+### Tela de Slides — Conhecendo as regiões de Marte:
+
+Antes de pousar no planeta vermelho, o jogador tem a oportunidade de conhecer as diferentes regiões de Marte por meio de um mapa interativo e um novo formato de slides explicativos. Essa etapa prepara o jogador para tomar uma decisão estratégica sobre o melhor local para realizar a aterrissagem.
+
+<div align="center">
+ Figura 20: Órbita de Marte<br><br>
+ <img src="../documents/assets/escolherlugar.png" width="500" alt="Órbita de Marte"><br>
+ <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
+</div>
+
+---
+
+### Mini Jogo — Escolha do Local de Pouso:
+
+Com base nas informações aprendidas sobre as regiões marcianas, o jogador enfrenta um quiz com uma pergunta decisiva: qual é o melhor local para pousar em Marte? A escolha feita nesse momento determina diretamente o ponto de aterrissagem na fase seguinte, tornando o conhecimento adquirido essencial para a progressão.
+
+<div align="center">
+ Figura 21: Quiz de escolha do local de pouso<br><br>
+ <img src="../documents/assets/Quiz_RegioesMarte.png" width="500" alt="Quiz Escolha do Local de Pouso"><br>
+ <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
+</div>
+
+---
+
+### Tela de Aterrissagem — Marte:
+
+A nave pousa na região escolhida pelo jogador no quiz anterior, e o astronauta pisa em Marte pela primeira vez. Um modal explicativo guia o jogador pelos primeiros passos no planeta vermelho, introduzindo-o à dinâmica de exploração do novo ambiente e preparando-o para interagir com os elementos ao seu redor.
+
+<div align="center">
+ Figura 22: Aterrissagem em Marte<br><br>
+ <img src="../documents/assets/pousoemmarte.png" width="500" alt="Aterrissagem em Marte"><br>
+ <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
+</div>
+
+---
+
+### Mini Jogo — Exploração de Marte:
+
+O jogador tem acesso a um cenário interativo repleto de elementos marcianos a serem descobertos. Ao clicar em cada elemento, um modal explicativo é exibido, acompanhado de áudios que detalham os principais componentes e características do planeta. A exploração é livre, incentivando a curiosidade e o aprendizado ativo.
+
+<div align="center">
+ Figura 23: Exploração de Marte<br><br>
+ <img src="../documents/assets/coletáveisMarte.png" width="500" alt="Exploração de Marte"><br>
+ <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
+</div>
+
+---
+
+### Mini Jogo — Construção da Base em Marte:
+
+Utilizando os itens coletados durante a exploração marciana e alguns materiais trazidos da Terra, o jogador começa a combinar recursos para construir e ativar uma base habitável em Marte. Essa mecânica de combinação de itens coloca em prática o conhecimento acumulado ao longo da jornada, culminando em uma missão de sobrevivência e engenharia espacial.
+
+<div align="center">
+ Figura 24: Construção da base em Marte<br><br>
+ <img src="../documents/assets/criar.png" width="500" alt="Construção da Base em Marte"><br>
+ <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
+</div>
+
+---
+
+### Tela de Decolagem — Próxima Missão:
+
+Com a base marciana estabelecida, o astronauta retorna à nave e decola novamente, dando continuidade à missão de exploração espacial. O jogador parte para os confins do espaço, carregando consigo toda a experiência e o aprendizado construídos ao longo da jornada.
+
+<div align="center">
+ Figura 25: Decolagem de Marte<br><br>
+ <img src="../documents/assets/fim_marte.png" width="500" alt="Decolagem Próxima Missão"><br>
+ <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
+</div>
+
+---
+
+### Mini Jogo — Chuva de Meteoros Final:
+
+Uma última e desafiadora chuva de meteoros aguarda o jogador na reta final da missão. Como nas etapas anteriores, colisões ativam um quiz — desta vez, abrangendo todo o conteúdo do jogo — proporcionando uma revisão completa da experiência. O sistema de três vidas se mantém, e o quiz é reiniciado caso todas sejam perdidas.
+
+<div align="center">
+ Figura 26: Chuva de meteoros final<br><br>
+ <img src="../documents/assets/Chuva_Meteoros_vida.png" width="500" alt="Chuva de Meteoros Final"><br>
+ <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
+</div>
+
+---
+
+### Tela Final — Missão Cumprida:
+
+Após superar todos os desafios, o jogador é recebido pela tela final, que celebra sua conquista e parabeniza pela conclusão da missão. Para os que desejam revisitar a aventura, a opção de reiniciar o jogo está disponível nas configurações, convidando o explorador a embarcar novamente nessa jornada pelo universo.
+
+<div align="center">
+ Figura 27: Tela final<br><br>
+ <img src="../documents/assets/missao_cumprida.png" width="500" alt="Tela Final"><br>
  <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
 </div>
 
 ### 3.3.2. Navegação pelo mundo
 
-| Cenário                                   | Descrição                                                                 | Navegação e Acesso                                                   | Interação                                                                 |
-|--------------------------------------------|---------------------------------------------------------------------------|----------------------------------------------------------------------|---------------------------------------------------------------------------|
-| Tela Sistema Solar                        | Visão em 2D do sistema solar para seleção de planetas e consulta de dados (como distância em UA). | A seleção é feita através do cursor do mouse, integrado ao sistema de Eye Tracking. | Ao focar e selecionar um planeta, a câmera realiza um zoom e destaca o corpo celeste, expondo suas informações de astronomia. |
-| Tela Tutorial                             | Sequência de voo onde a nave deve desviar de detritos no trajeto entre o Sol e a Terra. | Movimentação através do cursor do mouse, integrado ao sistema de Eye Tracking. | Esquiva de detritos espaciais. Em caso de colisão, o jogo pausa para a exibição de perguntas sobre astronomia. |
-| Centro de Comando de Astronomia Global    | Base de astronomia na Terra, focado em atividades pedagógicas e exploração guiada. | A aterrissagem da nave e a movimentação do avatar pelo centro são totalmente guiadas pela NPC Astrofísica. | O jogador segue as instruções da astrofísica para interagir com a linha do tempo, o simulador de telescópio e o mapa de escalas. |
+O jogo Astra é estruturado em ciclos lineares de exploração e desafio: o jogador avança de um cenário ao seguinte ao cumprir o objetivo proposto em cada fase, sem possibilidade de retorno a telas anteriores. A progressão segue a rota Sistema Solar → Terra → Viagem Terra-Marte → Marte → Desafio Final, e todas as áreas são desbloqueadas automaticamente ao concluir a etapa precedente. A navegação dentro de cada cena é feita exclusivamente pelo cursor do mouse, integrado ao sistema de Eye Tracking.
 
+| Cenário | Descrição | Navegação e Acesso | Interação |
+|---|---|---|---|
+| **Tela Sistema Solar** | Visão em 2D de alguns planetas do Sistema Solar para seleção do planeta Terra e consulta de materiais para responder a perguntas. | A seleção da Terra é feita através do cursor do mouse, integrado ao sistema de Eye Tracking. | Ao focar e selecionar um planeta, a câmera realiza um zoom e destaca o corpo celeste, expondo o que o aluno deve aprender sobre ele para responder as perguntas posteriormente. |
+| **Tela Tutorial** | Sequência de voo onde a nave deve desviar de meteoros no trajeto entre o Sol e a Terra, aprendendo sobre a mecânica do jogo. | A movimentação é feita através do cursor do mouse, integrado ao sistema de Eye Tracking. | Esquiva de detritos espaciais. Em caso de colisão, o jogo pausa e exibe aviso orientando o jogador a desviar. A cena avança automaticamente após 20 segundos ou com a conclusão do trajeto. |
+| **Centro de Comando de Astronomia Global** | Base de astronomia na Terra com múltiplas atividades pedagógicas sequenciais, guiadas pela NPC Astrofísica. | Desbloqueado após o tutorial e a animação de aterrissagem. A movimentação do avatar é indicada pela NPC Astrofísica. | O jogador segue a Astrofísica na seguinte sequência: (1) Introdução da guia; (2) Lousa da Linha do Tempo Estelar; (3) Construção da Linha do Tempo Estelar; (4) Lousa do Telescópio; (5) Simulador de Telescópio; (6) Lousa de Anos-Luz; (7) Perguntas sobre UA. Cada etapa concluída desbloqueia a próxima. |
+| **Viagem Terra-Marte** | Cena de chuva de meteoros no trajeto entre a Terra e Marte, com perguntas sobre os conteúdos aprendidos na fase anterior. | Acessada automaticamente após a conclusão de todas as atividades no Centro de Comando. A nave avança continuamente; o jogador controla a direção pelo mouse / _Eye Tracker_. | O jogador desvia dos meteoros. Ao colidir, o jogo pausa e exibe uma pergunta de múltipla escolha. Erros consomem vidas (máx. 3); ao perdê-las todas, a cena é reiniciada. Avança após 30 segundos ou ao esgotar as perguntas. |
+| **Exploração de Marte** | Fase em Marte com três etapas sequenciais: (1) Escolha da região de pouso; (2) Coleta de recursos com lente; (3) Criação da base espacial. | Desbloqueada automaticamente após a animação de chegada a Marte. Cada subetapa é acessada ao concluir a anterior; não é possível retroceder. | (1) Regiões: o jogador visualiza slides sobre as regiões de Marte e responde a um quiz; em caso de erro, retorna aos slides para tentar novamente. (2) Coleta: a lente revela itens ocultos (CO₂, poeira, rocha, gelo, energia, cinza) — clicar coleta o item e reproduz áudio. (3) Base: combinar pares de recursos para atender aos objetivos; erros exibem dicas orientadoras. |
+| **Desafio Final** | Última cena de chuva de meteoros, com perguntas abrangendo todo o conteúdo aprendido ao longo do jogo. Representa o trecho final da jornada da nave. | Acessado automaticamente após o modal de conclusão da Fase Marte. Controle idêntico ao das cenas de chuva anteriores. | Mecânica igual à da Viagem Terra-Marte, com maior dificuldade: apenas 2 vidas e perguntas abrangendo todos os temas. Ao concluir, o jogador é direcionado à tela de parabenização e encerramento. |
 
 ### 3.3.3. Condições climáticas e temporais
 
-Nosso jogo é ambientado no espaço sideral, um ambiente que não apresenta condições climáticas ou variações temporais como as observadas na Terra. Dessa forma, fatores como chuva, órbita, temperatura ou ciclos de dia e noite não influenciam a dinâmica do jogo, não sendo elementos relevantes para a construção da gameplay.
+Nosso jogo é ambientado no espaço sideral, um ambiente que não apresenta condições climáticas ou variações temporais como as observadas na Terra. Por isso, fatores como chuva, variações de temperatura e ciclos de dia e noite não influenciam a dinâmica do jogo, não sendo considerados relevantes para a construção da gameplay.
 
 ### 3.3.4. Concept Art
 
 ### Personagens do jogo
 
 <div align="center">
- Figura 9: Concept Art Foguete<br><br>
- <img src="../assets/cf.jpeg" width="500" alt="Título"><br>
+ Figura 28: Concept Art Foguete<br><br>
+ <img src="../documents/assets/cf.jpeg" width="500" alt="Título"><br>
  <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
 </div>
 
 Essa imagem representa uma concept art da primeira spritesheet do nosso jogo, a animação do foguete descendo. É possível notar isso pela quantidade de fogo que vai diminuindo da primeira imagem para a última
 
 <div align="center">
- Figura 10: Concept Art Personagens<br><br>
- <img src="../assets/concept.png" width="500" alt="Título"><br>
+ Figura 29: Concept Art Personagens<br><br>
+ <img src="../documents/assets/concept.png" width="500" alt="Título"><br>
  <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
 </div>
 
@@ -485,8 +681,8 @@ Essas imagens representam os primeiros traços na criação de personagens do no
 ### Itens Coletáveis
 
 <div align="center">
- Figura 12: Concept Art - Itens coletáveis <br><br>
- <img src="../assets/conceptart.png" width="500" alt="Título"><br>
+ Figura 30: Concept Art - Itens coletáveis <br><br>
+ <img src="../documents/assets/conceptart.png" width="500" alt="Título"><br>
  <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
 </div>
 
@@ -495,8 +691,8 @@ Esses desenhos são a primeira versão dos itens coletáveis do nosso jogo, que 
 ### Mapa do jogo
 
 <div align="center">
- Figura 11: Concept Art<br><br>
- <img src="../assets/mapa-astra.png" width="500" alt="Título"><br>
+ Figura 31: Concept Art<br><br>
+ <img src="../documents/assets/mapa-astra.png" width="500" alt="Título"><br>
  <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
 </div>
 
@@ -507,8 +703,8 @@ Esta concepção visual representa o mapa do jogo, com o detalhe dos caminhos e 
 ### Tela inicial do jogo 
 
 <div align="center">
- Figura 12: Concept Art - Tela Inicial<br><br>
- <img src="../assets/tela_mercurio_destacado.png" width="500" alt="Título"><br>
+ Figura 32: Concept Art - Tela Inicial<br><br>
+ <img src="../documents/assets/tela_mercurio_destacado.png" width="500" alt="Título"><br>
  <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
 </div>
 
@@ -519,8 +715,8 @@ Esta primeira concepção visual da interface inicial do jogo, com o destaque do
 ### Tela Mini Tutorial
 
 <div align="center">
- Figura 13: Concept Art - Tela Mini Tutorial<br><br>
- <img src="../assets/tela_mini_tutorial.png" width="500" alt="Título"><br>
+ Figura 33: Concept Art - Tela Mini Tutorial<br><br>
+ <img src="../documents/assets/tela_mini_tutorial.png" width="500" alt="Título"><br>
  <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
 </div>
 
@@ -531,8 +727,8 @@ Esta concepção visual apresenta o tutorial da mecânica de “Chuva de asteró
 ### Tela de Pergunta
 
 <div align="center">
- Figura 14: Concept Art - Tela de Pergunta<br><br>
- <img src="../assets/tela_pergunta.png" width="500" alt="Título"><br>
+ Figura 34: Concept Art - Tela de Pergunta<br><br>
+ <img src="../documents/assets/tela_pergunta.png" width="500" alt="Título"><br>
  <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
 </div>
 
@@ -654,7 +850,8 @@ O jogador assume o papel de um explorador espacial que deve viajar pelo Sistema 
  
 | Ação | Resultado | Descrição |
 |---|---|---|
-| Movimentação lateral | Deslocamento pela fase | A nave percorre o cenário e interage com os meteoros. |
+| Movimentação vertical | Deslocamento pela fase | A nave percorre o cenário e interage com os meteoros verticalmente. |
+| Movimentação horizontal | Deslocamento pela fase | A nave percorre o cenário e interage com os meteoros horizontalmente. |
 | Escolha correta após a colisão | Continuação do jogo | O jogador avança normalmente na fase. |
 | Escolha incorreta após a colisão | Perda de vida | O jogador precisa continuar com mais atenção. |
 | Perder todas as vidas | Game Over | O jogo exibe uma tela, dando a opção de reiniciar. |
@@ -774,9 +971,9 @@ A função `lancar()` está localizada da linha 9 até a 26 do arquivo `src/comp
 HALLIDAY, David; RESNICK, Robert; WALKER, Jearl. **Fundamentos de Física — Mecânica — Volume 1**. 12. ed. Rio de Janeiro: LTC, 2023. p. 13. ISBN 9788521638551. Disponível em: https://integrada.minhabiblioteca.com.br/reader/books/9788521638551/. Acesso em: 19 mar. 2026.19 mar. 2026.# 
 
 
-<a name="c4"></a>4. Desenvolvimento do Jogo
+## 4. Desenvolvimento do Jogo
 
-## 4.1. Desenvolvimento preliminar do jogo
+### 4.1. Desenvolvimento preliminar do jogo
 *A primeira Sprint teve como foco principal o desenvolvimento dos elementos essenciais para a estrutura básica do projeto, incluindo a definição do conceito inicial, a criação do primeiro cenário (Sistema Solar), a implementação do modal de boas-vindas e o desenvolvimento da primeira mecânica baseada em Eye Tracker, que atualmente está sendo simulado pelo movimento do mouse. O grupo selecionou os seguintes requisitos para implementarmos durante a Sprint 1.*
 
 ### Esboço da Narrativa
@@ -794,8 +991,8 @@ O cenário inicia-se ao redor dos planetas, em razão da escolha do tema do jogo
 Com base nas aulas ministradas e nas discussões realizadas com os professores, o jogo foi desenvolvido por meio de desenhos feitos à mão. A etapa mais desafiadora do processo consistiu na definição e aplicação das cores e dos contrastes.
 
 <div align="center">
- Figura 16: Tela inicial do jogo apresentando o Sistema Solar com modal de boas-vindas<br><br>
- <img src="../assets/tela_sistema_solar.png" width="500" alt="Título"><br>
+ Figura 35: Tela inicial do jogo apresentando o Sistema Solar com modal de boas-vindas<br><br>
+ <img src="../documents/assets/tela_sistema_solar.png" width="500" alt="Título"><br>
  <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
 </div>
 
@@ -804,8 +1001,8 @@ Com base nas aulas ministradas e nas discussões realizadas com os professores, 
 O jogo inicia-se com a seleção da Terra pelo jogador. Após essa etapa, uma nova tela é apresentada, marcando o início da introdução às mecânicas de deslocamento. A partir desse momento, a aeronave passa a se movimentar pelo cenário de acordo com o direcionamento vertical — para cima e para baixo — realizado pelo jogador por meio do dispositivo Eye Tracker.
 
 <div align="center">
- Figura 17: Mecânica de navegação com o foguete desviando de asteroides controlado por Eye Tracker.<br><br>
- <img src="../assets/tela_mini_tutorial.png" width="500" alt="Título"><br>
+ Figura 36: Mecânica de navegação com o foguete desviando de asteroides controlado por Eye Tracker.<br><br>
+ <img src="../documents/assets/tela_mini_tutorial.png" width="500" alt="Título"><br>
  <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
 </div>
 
@@ -894,8 +1091,8 @@ function lancarMeteoro() {
 O jogo também contará com interação dinâmica com o cenário, reforçando a proposta divertida e acessível. Ao direcionar o olhar para um planeta específico (atualmente simulado pelo movimento do mouse), o sistema reconhecerá o ponto de foco e ativará uma resposta visual imediata. O planeta observado será expandido suavemente na tela, destacando-se dos demais elementos do cenário.
 
 <div align="center">
- Figura 18: Modal de boas-vindas com instrução: "Olhe para nosso planeta Terra e aprenda todas as maravilhas do Universo.<br><br>
- <img src="../assets/tela_mercurio_destacado.png" width="500" alt="Título"><br>
+ Figura 37: Modal de boas-vindas com instrução: "Olhe para nosso planeta Terra e aprenda todas as maravilhas do Universo.<br><br>
+ <img src="../documents/assets/tela_mercurio_destacado.png" width="500" alt="Título"><br>
  <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
 </div>
 
@@ -904,16 +1101,16 @@ O jogo também contará com interação dinâmica com o cenário, reforçando a 
 Dentre os minigames implementados, utilizamos a mecânica da navegação, com o foguete sendo guiado pela movimentação do olho com o Eye Tracker entre os asteroides, e, caso ocorra uma colisão, aparecerá um pop-up com um quiz baseado na experiência do jogador até agora.
 
 <div align="center">
- Figura 19: Minigame de navegação entre asteroides.<br><br>
- <img src="../assets/tela_mini_tutorial.png" width="500" alt="Título"><br>
+ Figura 38: Minigame de navegação entre asteroides.<br><br>
+ <img src="../documents/assets/tela_mini_tutorial.png" width="500" alt="Título"><br>
  <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
 </div>
 
-A seguir, a Figura 20 ilustra a tela que apresentará a pergunta a ser respondida com a seleção de uma das alternativas.
+A seguir, a Figura 39 ilustra a tela que apresentará a pergunta a ser respondida com a seleção de uma das alternativas.
 
 <div align="center">
- Figura 20: Exemplo de quiz que aparecerá após colisão.<br><br>
- <img src="../assets/tela_pergunta.png" width="500" alt="Título"><br>
+ Figura 39: Exemplo de quiz que aparecerá após colisão.<br><br>
+ <img src="../documents/assets/tela_pergunta.png" width="500" alt="Título"><br>
  <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
 </div>
 
@@ -956,8 +1153,8 @@ O uso de poucos elementos na tela reduz a poluição visual e facilita a identif
 O botão foi mantido em destaque no centro da tela, com tamanho ampliado e bordas arredondadas, facilitando sua visualização e identificação. Além disso, a organização centralizada dos elementos contribui para uma navegação mais intuitiva e confortável, especialmente para usuários que utilizam tecnologias assistivas.
 
 <div align="center">
- Figura 21: Tela inicial<br><br>
- <img src="../assets/tela_inicial.png" width="500" alt="Título"><br>
+ Figura 40: Tela inicial<br><br>
+ <img src="../documents/assets/tela_inicial.png" width="500" alt="Título"><br>
  <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
 </div>
 
@@ -978,20 +1175,20 @@ No canto superior, foi inserido um balão de orientação com instruções inici
 A escolha pelo design minimalista garante melhor legibilidade, alto contraste e menor poluição visual, tornando o cenário mais acessível para pessoas com baixa visão e adequado para interação por eye tracker. O resultado é um ambiente educativo, organizado e visualmente equilibrado, alinhado à proposta pedagógica.
 
 <div align="center">
-Figura 22: Tela do sistema solar<br><br>
- <img src="../assets/tela_mercurio_destacado.png" width="500" alt="Título"><br>
+Figura 41: Tela do sistema solar<br><br>
+ <img src="../documents/assets/tela_mercurio_destacado.png" width="500" alt="Título"><br>
  <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
 </div>
 
 <div align="center">
-Figura 23: Tela dos Asteroides<br><br>
- <img src="../assets/tela_mini_tutorial.png" width="500" alt="Título"><br>
+Figura 42: Tela dos Asteroides<br><br>
+ <img src="../documents/assets/tela_mini_tutorial.png" width="500" alt="Título"><br>
  <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
 </div>
 
 <div align="center">
-Figura 24: Tela de perguntas<br><br>
- <img src="../assets/tela_pergunta.png" width="500" alt="Título"><br>
+Figura 43: Tela de perguntas<br><br>
+ <img src="../documents/assets/tela_pergunta.png" width="500" alt="Título"><br>
  <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
 </div>
 
@@ -1024,16 +1221,16 @@ Adicionamos um sistema de vidas que servirá para as partes que envolvem o quiz.
 #### Ilustrações (Capturas de tela):
 
 <div align="center">
-Figura 26: Tela dos Meteoros<br><br>
- <img src="../assets/tela_mini_tutorial.png" width="500" alt="Título"><br>
+Figura 44: Tela dos Meteoros<br><br>
+ <img src="../documents/assets/tela_mini_tutorial.png" width="500" alt="Título"><br>
  <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
 </div>
 
 Fizemos pequenos ajustes na fase dos asteroides (src/cenas/ChuvaMeteoros.js), pois o código apresentou um pequeno conflito que fazia aparecer dois asteroides e duas perguntas ao mesmo tempo, o que acabava gerando certo desconforto para o usuário durante a jogabilidade. Assim, realizamos correções para garantir que os elementos apareçam de forma organizada, melhorando a experiência do jogador.
 
 <div align="center">
-Figura 27: Personagens<br><br>
- <img src="../assets/Personagens.png" width="500" alt="Título"><br>
+Figura 45: Personagens<br><br>
+ <img src="../documents/assets/Personagens.png" width="500" alt="Título"><br>
  <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
 </div>
 
@@ -1042,24 +1239,24 @@ Pensando na jogabilidade, descartamos a ideia inicial de ter quatro personagens 
 Já o personagem guia, à esquerda da imagem, foi desenvolvido com inspiração na representatividade. A referência veio da história retratada no filme Estrelas Além do Tempo, que mostra a trajetória de superação de cientistas negras na NASA. Em especial, nos inspiramos em Dorothy Vaughan (1910–2008), matemática e "computador humano" essencial para a NASA, cuja história de inteligência, persistência e contribuição científica motivou a criação desse personagem orientador no jogo.
 
 <div align="center">
-Figura 28: Chegada a terra<br><br>
- <img src="../assets/Chegada_terra.png" width="380" alt="Título"><br>
+Figura 46: Chegada a terra<br><br>
+ <img src="../documents/assets/Chegada_terra.png" width="380" alt="Título"><br>
  <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
 </div>
 
 Foi adicionada uma nova cena mostrando a chegada à Terra, na qual o jogador visualiza a nave e a astrofísica que atuará como guia. Essa inclusão enriquece a experiência do jogador e facilita a compreensão da progressão entre as fases.
 
 <div align="center">
-Figura 29: Construção da linha do tempo<br><br>
- <img src="../assets/Construção_da_linha_do_tempo.png" width="500" alt="Título"><br>
+Figura 47: Construção da linha do tempo<br><br>
+ <img src="../documents/assets/Construção_da_linha_do_tempo.png" width="500" alt="Título"><br>
  <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
 </div>
 
 Uma nova cena foi adicionada, relacionada à dinâmica da linha do tempo estelar. Nessa cena, o jogador organiza cartas com palavras como "Big Bang", "Origem da Vida" e outros eventos, posicionando-as corretamente ao longo da linha do tempo. Essa atividade ajuda a compreender a sequência histórica do universo e reforça o aprendizado de forma interativa.
 
 <div align="center">
-Figura 30: Simulador do telescópio<br><br>
- <img src="../assets/Simulador_de_telescópio.png" width="500" alt="Título"><br>
+Figura 48: Simulador do telescópio<br><br>
+ <img src="../documents/assets/telescópio.png" width="500" alt="Título"><br>
  <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
 </div>
 
@@ -1068,8 +1265,8 @@ Foi adicionada uma nova cena com o telescópio, onde o jogador tem a sensação 
 Quando o jogador foca o olhar em um desses elementos, ele se expande, permitindo que seja visualizado com mais detalhes. Ao mesmo tempo, ao lado do elemento, aparecem informações relacionadas, como características da nebulosa, da galáxia ou do buraco negro. Dessa forma, o jogador consegue explorar e aprender sobre cada corpo celeste de maneira interativa e intuitiva, reforçando o conteúdo educativo do jogo.
 
 <div align="center">
-Figura 31: Saída da Terra<br><br>
- <img src="../assets/Decolagem_Terra.png" width="500" alt="Título"><br>
+Figura 49: Saída da Terra<br><br>
+ <img src="../documents/assets/Decolagem_Terra.png" width="500" alt="Título"><br>
  <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
 </div>
 
@@ -1119,35 +1316,35 @@ Além disso, foi incorporada a fonte tipográfica Aphont, desenvolvida pela Amer
 }
 ```
 
-Para reforçar a acessibilidade adaptativa, também foram implementadas configurações de tamanho de fonte, permitindo ao usuário escolher entre pequena, média e grande, sendo a opção média definida como padrão. A seguir, a Figura 32 apresenta o design do recurso de alteração.
+Para reforçar a acessibilidade adaptativa, também foram implementadas configurações de tamanho de fonte, permitindo ao usuário escolher entre pequena, média e grande, sendo a opção média definida como padrão. A seguir, a Figura 50 apresenta o design do recurso de alteração.
 
 <div align="center">
-Figura 32: Configuração do tamanho da fonte<br><br>
- <img src="../assets/Tamanho_Fonte.png" width="500" alt="Título"><br>
+Figura 50: Configuração do tamanho da fonte<br><br>
+ <img src="../documents/assets/Tamanho_Fonte.png" width="500" alt="Título"><br>
  <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
 </div>
 
-Adicionalmente, foram inseridos áudios explicativos como suporte à aprendizagem, oferecendo ao jogador a possibilidade de complementar a leitura com conteúdo sonoro. Esse recurso pode ser ativado ou desativado a qualquer momento no menu de configurações, como mostrado na Figura 33, conforme a necessidade do usuário.
+Adicionalmente, foram inseridos áudios explicativos como suporte à aprendizagem, oferecendo ao jogador a possibilidade de complementar a leitura com conteúdo sonoro. Esse recurso pode ser ativado ou desativado a qualquer momento no menu de configurações, como mostrado na Figura 51, conforme a necessidade do usuário.
 
 <div align="center">
-Figura 33: Configuração do som<br><br>
- <img src="../assets/Config_Som.png" width="500" alt="Título"><br>
+Figura 51: Configuração do som<br><br>
+ <img src="../documents/assets/Config_Som.png" width="500" alt="Título"><br>
  <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
 </div>
 
-Outro recurso implementado foi o modo de tela cheia, que proporciona maior imersão ao eliminar distrações externas, como notificações ou outras abas do navegador, permitindo que o estudante foque exclusivamente no jogo. Este diferencial pode ser encontrado no menu de configurações, como mostrado na Figura 34 a seguir.
+Outro recurso implementado foi o modo de tela cheia, que proporciona maior imersão ao eliminar distrações externas, como notificações ou outras abas do navegador, permitindo que o estudante foque exclusivamente no jogo. Este diferencial pode ser encontrado no menu de configurações, como mostrado na Figura 52 a seguir.
 
 <div align="center">
-Figura 34: Ativação do recurso de tela cheia<br><br>
- <img src="../assets/Config_TelaCheia.png" width="500" alt="Título"><br>
+Figura 52: Ativação do recurso de tela cheia<br><br>
+ <img src="../documents/assets/Config_TelaCheia.png" width="500" alt="Título"><br>
  <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
 </div>
 
-Por fim, como representado na Figura 35, foi adicionado um sistema de vidas às cenas de chuva de meteoros, integrado a perguntas sobre o conteúdo aprendido. Nessas situações, o jogador deve responder a uma questão com quatro alternativas, sendo apenas uma correta. Após a resposta, é fornecido um feedback imediato. Em caso de erro, o jogador perde uma vida, representada pelo coração. Ao esgotar todas as vidas, é exibida uma mensagem de "Tente novamente", redirecionando o jogador para reiniciar o desafio até conseguir avançar com pelo menos uma vida restante.
+Por fim, como representado na Figura 53, foi adicionado um sistema de vidas às cenas de chuva de meteoros, integrado a perguntas sobre o conteúdo aprendido. Nessas situações, o jogador deve responder a uma questão com quatro alternativas, sendo apenas uma correta. Após a resposta, é fornecido um feedback imediato. Em caso de erro, o jogador perde uma vida, representada pelo coração. Ao esgotar todas as vidas, é exibida uma mensagem de "Tente novamente", redirecionando o jogador para reiniciar o desafio até conseguir avançar com pelo menos uma vida restante.
 
 <div align="center">
-Figura 35: Sistema de Vidas<br><br>
- <img src="../assets/Sistema_Vida.png" width="500" alt="Título"><br>
+Figura 53: Sistema de Vidas<br><br>
+ <img src="../documents/assets/Sistema_Vida.png" width="500" alt="Título"><br>
  <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
 </div>
 
@@ -1161,19 +1358,19 @@ Para uma descrição mais detalhada do modelo e de sua implementação, consulte
 
 No decorrer da Sprint 3, foram desenvolvidos os elementos visuais e a estrutura lógica de programação da fase na Terra. A partir dos feedbacks dos parceiros de projeto, foram identificados pontos de melhoria, como a necessidade de aumentar o contraste de cores e incorporar novas funcionalidades sugeridas pelos professores, que foram adicionados durante a Sprint 4.
 
-Na Figura 36, observa-se o contraste inicial da interface, no qual o botão amarelo sobre o fundo branco apresentava baixa distinção visual, comprometendo a identificação e a compreensão do elemento.
+Na Figura 54, observa-se o contraste inicial da interface, no qual o botão amarelo sobre o fundo branco apresentava baixa distinção visual, comprometendo a identificação e a compreensão do elemento.
 
 <div align="center">
-Figura 36: Botão com baixo contraste<br><br>
- <img src="../assets/botao_baixo_contraste.png" width="500" alt="Título"><br>
+Figura 54: Botão com baixo contraste<br><br>
+ <img src="../documents/assets/botao_baixo_contraste.png" width="500" alt="Título"><br>
  <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
 </div>
 
-Diante disso, foi adicionada uma borda preta ao visual, aumentando significativamente o contraste e tornando-o mais perceptível. Essa adaptação contribui para a acessibilidade visual, atendendo melhor aos diferentes níveis de percepção do público-alvo. A melhoria pode ser visualizada na Figura 37 a seguir.
+Diante disso, foi adicionada uma borda preta ao visual, aumentando significativamente o contraste e tornando-o mais perceptível. Essa adaptação contribui para a acessibilidade visual, atendendo melhor aos diferentes níveis de percepção do público-alvo. A melhoria pode ser visualizada na Figura 55 a seguir.
 
 <div align="center">
-Figura 37: Botão com alto contraste<br><br>
- <img src="../assets/botao_alto_contraste.png" width="500" alt="Título"><br>
+Figura 55: Botão com alto contraste<br><br>
+ <img src="../documents/assets/botao_alto_contraste.png" width="500" alt="Título"><br>
  <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br>
 </div>
 
@@ -1189,31 +1386,31 @@ Para ampliar a imersão do jogo Astra no contexto espacial, foi incorporada uma 
 
 A fase se inicia com uma breve animação: a nave percorre o espaço e pousa em Marte. Esse momento estabelece o contexto e prepara o jogador para a introdução de novos conteúdos.
 
-<div align="center"> Figura 38: Chegada em Marte<br><br> <img src="../assets/chegadamarte.png" width="500" alt="Título"><br> <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br> </div>
+<div align="center"> Figura 56: Chegada em Marte<br><br> <img src="../documents/assets/chegadamarte.png" width="500" alt="Título"><br> <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br> </div>
 
 Em seguida, o jogador deve escolher uma região adequada para a construção de uma base espacial. Para tomar essa decisão, é necessário compreender as características de cada área. São apresentadas cinco opções, sendo duas corretas (Planícies do Norte e Bacias de Impacto) e três inadequadas (Terras Altas do Sul, Regiões Cobertas por Poeira e Zonas Polares).
 
-<div align="center"> Figura 39: Escolha do lugar<br><br> <img src="../assets/escolherlugar.png" width="500" alt="Título"><br> <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br> </div>
+<div align="center"> Figura 57: Escolha do lugar<br><br> <img src="../documents/assets/escolherlugar.png" width="500" alt="Título"><br> <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br> </div>
 
 Após a escolha, o sistema apresenta um retorno imediato, indicando acerto ou erro, acompanhado de uma justificativa. Assim, o jogador compreende se a região selecionada é apropriada para habitação humana. Em seguida, ocorre uma nova animação mostrando o pouso da nave, que leva até um modal introdutório com a opção de iniciar a exploração.
 
-<div align="center"> Figura 40: Pouso em Marte<br><br> <img src="../assets/pousoemmarte.png" width="500" alt="Título"><br> <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br> </div>
+<div align="center"> Figura 58: Pouso em Marte<br><br> <img src="../documents/assets/pousoemmarte.png" width="500" alt="Título"><br> <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br> </div>
 
 Na etapa seguinte, o jogador explora o ambiente marciano em um cenário dinâmico, com itens distribuídos pelo espaço. Ao interagir com cada elemento, são exibidas descrições breves que explicam suas características. Esses itens são armazenados automaticamente em uma "prateleira" de coletáveis. Após reunir todos os recursos, a etapa de construção da base é liberada.
 
-<div align="center"> Figura 41: Coleta de recursos<br><br> <img src="../assets/coletáveisMarte.png" width="500" alt="Título"><br> <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br> </div>
+<div align="center"> Figura 59: Coleta de recursos<br><br> <img src="../documents/assets/coletáveisMarte.png" width="500" alt="Título"><br> <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br> </div>
 
 Na fase de criação da base espacial, os itens coletados são utilizados na formação de estruturas e funcionalidades essenciais para a sobrevivência humana. Com base nos enunciados, o jogador deve combinar corretamente dois elementos para atender ao objetivo proposto. Em caso de erro, o sistema apresenta um direcionamento que auxilia no raciocínio, permitindo novas tentativas. Ao concluir todas as combinações, o jogador é encaminhado para a próxima etapa.
 
-<div align="center"> Figura 42: Criação da base espacial<br><br> <img src="../assets/criar.png" width="500" alt="Título"><br> <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br> </div>
+<div align="center"> Figura 60: Criação da base espacial<br><br> <img src="../documents/assets/criar.png" width="500" alt="Título"><br> <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br> </div>
 
 Em seguida, é apresentada a última cena da fase de Marte, com um modal que parabeniza o jogador pela conclusão, ao mesmo tempo em que o prepara para o desafio final. Ao clicar no botão "Estou pronto", o jogador é direcionado para a fase final do jogo Astra.
 
-<div align="center"> Figura 43: Finalização da Fase Marte<br><br> <img src="../assets/fim_marte.png" width="500" alt="Título"><br> <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br> </div>
+<div align="center"> Figura 61: Finalização da Fase Marte<br><br> <img src="../documents/assets/fim_marte.png" width="500" alt="Título"><br> <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br> </div>
 
 O desafio final consiste em responder perguntas relacionadas a todo o conteúdo aprendido ao longo do jogo. Com apenas duas vidas disponíveis, o jogador pode cometer apenas um erro antes de encerrar essa fase. Ao concluir essa etapa com sucesso, é exibido um modal parabenizando pela vitória.
 
-<div align="center"> Figura 44: Finalização do jogo Astra <br><br> <img src="../assets/missao_cumprida.png" width="500" alt="Título"><br> <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br> </div>
+<div align="center"> Figura 62: Finalização do jogo Astra <br><br> <img src="../documents/assets/missao_cumprida.png" width="500" alt="Título"><br> <sub>Fonte: Material produzido pelos autores (2026)</sub><br><br> </div>
 
 ### Finalização do jogo ASTRA
 

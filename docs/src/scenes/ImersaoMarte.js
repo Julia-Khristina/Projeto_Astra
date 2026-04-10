@@ -13,7 +13,7 @@ export default class ImersaoMarte extends Phaser.Scene
     preload() {
         this.load.image('lente',     'assets/images/Telescópio_de_Marte.svg');
         this.load.image('cenario',   'assets/images/Fundo_Marte_Gelo.svg');
-        this.load.image('container', 'assets/images/Container.svg');
+        this.load.image('container', 'assets/images/container.svg');
         this.load.image('carbono',   'assets/images/Carbono.svg');
         this.load.image('poeira',    'assets/images/Poeira.svg');
         this.load.image('rocha',     'assets/images/Rocha.svg');
