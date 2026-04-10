@@ -14,7 +14,7 @@ export default class CriacaoBase extends Phaser.Scene {
     preload() {
         this.load.image('pause',      'assets/images/botao_pause.svg');
         this.load.image('cenario',    'assets/images/fundo_marte.svg');
-        this.load.image('container',  'assets/images/Container.svg');
+        this.load.image('container',  'assets/images/container.svg');
         this.load.image('carbono',    'assets/images/Carbono.svg');
         this.load.image('poeira',     'assets/images/Poeira.svg');
         this.load.image('painel',     'assets/images/painel_solar.svg');
@@ -80,8 +80,8 @@ export default class CriacaoBase extends Phaser.Scene {
             atual.estiloTitulo.wordWrap = { width: Math.round(1100 * escala) };
         }
         if (atual.estiloDescricao) {
-            atual.estiloDescricao.fontSize = `${Math.round(50 * escala)}px`;
-            atual.estiloDescricao.wordWrap = { width: Math.round(1500 * escala) }
+            atual.estiloDescricao.fontSize = `${Math.round(45 * escala)}px`;
+            atual.estiloDescricao.wordWrap = { width: Math.round(1200 * escala) }
         }
 
         // quando clicar no botão, o modal ficará invisível
